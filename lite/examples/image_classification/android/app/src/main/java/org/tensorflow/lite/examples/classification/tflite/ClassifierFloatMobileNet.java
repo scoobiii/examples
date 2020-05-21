@@ -52,7 +52,8 @@ public class ClassifierFloatMobileNet extends Classifier {
     // you can download this file from
     // see build.gradle for where to obtain this file. It should be auto
     // downloaded into assets.
-    return "mobilenet_v1_1.0_224.tflite";
+    // return "mobilenet_v1_1.0_224.tflite"; alterado em 20/05/202 para linha de baixo pra babaça localizar o mala do covid by scooby
+     return "model_unquant.tflite";
   }
 
   @Override
